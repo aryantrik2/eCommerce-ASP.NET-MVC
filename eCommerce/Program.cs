@@ -15,7 +15,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 //This is new line
-IServiceCollection serviceCollection = builder.Services.AddDbContext<AppDBContext>();
+builder.Services.AddDbContext<AppDbContext>();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
