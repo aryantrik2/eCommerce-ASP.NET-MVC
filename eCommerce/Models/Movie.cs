@@ -1,4 +1,4 @@
-﻿using eCommerce.Data;
+﻿using eCommerce.Data.Enums;
 using System.ComponentModel.DataAnnotations;
 
 namespace eCommerce.Models
